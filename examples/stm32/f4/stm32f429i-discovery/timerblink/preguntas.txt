@@ -1,0 +1,26 @@
+	P#1 Cuánto tiempo permanece encendido el LED PC5 (cuente con un cronómetro digital (smartphone) diez repeticiones y divida entre 10)
+m1=1.97s
+m2=2.2s
+m3=1.98s
+m4=1.99s
+m5=2.02s
+m6=2.05s
+m7=2.03s
+m8=1.90s
+m9=2.03s
+m10=2.01s
+
+mt=20.18/20 = 1.09 segundos
+
+	P#2 Indique cuál modo de GPIO está siendo utilizado por el pin PB13
+
+
+	P#3 Indiqué a qué periférico está asignado el pin PB13 con la función gpio_set_af
+
+	P\ Cambió alguna de estas dos señales? Por qué?
+El que cambió fue PB13 cuando se cambió de center a edge mientras que PC5 se mantuvo igual para este cambio.
+
+	Calcule el ciclo de trabajo de la señal PB13.
+tiempo de subida = 340 us
+tiempo de bajada = 400 us
+
